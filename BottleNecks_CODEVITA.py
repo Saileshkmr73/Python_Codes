@@ -20,6 +20,9 @@ for i in list(map(int,input().split())):
         s=max(k[i],s)
         print(s)
 print(s)
+
+#Hi this is Rajesh Kumar Code
+
 '''
 '''
 The program must accept the radii of N bottles as the input. Once a bottle is enclosed inside another bottle,
