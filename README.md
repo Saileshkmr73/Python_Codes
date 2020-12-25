@@ -12,3 +12,4 @@ git push -u origin master
 git pull --pull latest changes
 git checkout branch_name
 git push
+git clone https://github.com/Saileshkmr73/Python_Codes.git
