@@ -8,6 +8,7 @@ for i in k:
 print(cnt)
 
 '''
+Method 2 using Dictionaries
 a=int(input())
 s=1
 k={}
