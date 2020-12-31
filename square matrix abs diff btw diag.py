@@ -18,3 +18,7 @@ s=sum(m[i][i]for i in range(n))
 s1=sum(m[i][n-i-1]for i in range(n))
 print(abs(s-s1))
 '''
+'''
+mat = [[int(input()) for x in range (C)] for y in range(R)] 
+to take input on each line
+'''
