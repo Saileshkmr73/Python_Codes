@@ -13,6 +13,11 @@ for t in range(int(input())):
         print('No')
 
 '''
+2
+6
+4 3 2 1 3 4
+3
+1 3 2
 Teest cases:
 There is a horizontal row of  cubes. The length of each cube is given. You need to create a new vertical pile of cubes. The new pile should follow these directions: if  is on top of  then .
 

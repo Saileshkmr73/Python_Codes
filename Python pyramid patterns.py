@@ -92,7 +92,7 @@ j-i-h-g-f-e-d-c-b-a-b-c-d-e-f-g-h-i-j
 
 num=5
 for i in range(0,num):
-    for k in range(num-i,1,-1):
+    for k in range(num-i+1,1,-1):
         print(' ',end="")
     for l in range(0,i+1):
         print('* ',end="")
@@ -100,9 +100,10 @@ for i in range(0,num):
 for i in range(0,num):
     for l in range(0,i+1):
         print(' ',end="")
-    for k in range(num-i,1,-1):
+    for k in range(num-i+1,1,-1):
         print("* ",end="")
     print()
+
 
 output:
 
@@ -146,7 +147,6 @@ output:
 
 num=3
 for i in range(0,num):
-    s=1
     c='A'
     for k in range(num-i,0,-1):
         print(' ',end="")

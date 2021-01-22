@@ -8,8 +8,8 @@ if(n==1):
 else:
     while(count<n):
         nth=n1+n2
-        n1=n2
-        n2=nth
+        nh1=n2
+        n2=nt
         count+=1
     print(n1)'''
 
